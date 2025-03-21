@@ -44,8 +44,8 @@ local gray_termcursornc = gray
 
 local gray_statusline = black
 local gray_statuslinenc = black
-local gray_tabline = gray
-local gray_tablinefill = gray
+local gray_tabline = black
+local gray_tablinefill = gray_tabline
 
 
 
@@ -146,7 +146,7 @@ local theme = lush(function(injected_functions)
 
     StatusLine     { bg = gray_statusline, fg = white }, -- Status line of current window
     StatusLineNC   { bg = gray_statuslinenc, fg = white }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    TabLine        { bg = gray_tabline, fg = black }, -- Tab pages line, not active tab page label
+    TabLine        { bg = gray_tabline, fg = gray_comment }, -- Tab pages line, not active tab page label
     TabLineFill    { bg = gray_tablinefill }, -- Tab pages line, where there are no labels
     TabLineSel     { bg = white, fg = black, gui = 'bold' }, -- Tab pages line, active tab page label
 
