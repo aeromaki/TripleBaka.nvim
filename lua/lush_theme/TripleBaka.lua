@@ -62,7 +62,7 @@ local theme = lush(function(injected_functions)
     String         { Constant }, --   A string constant: "this is a string"
     -- Character      { }, --   A character constant: 'c', '\n'
     -- Number         { }, --   A number constant: 234, 0xff
-    Boolean        { Constant, gui = 'italic' }, --   A boolean constant: TRUE, false
+    -- Boolean        { }, --   A boolean constant: TRUE, false
     -- Float          { }, --   A floating point constant: 2.3e10
 
     Identifier     { fg = blue }, -- (*) Any variable name
