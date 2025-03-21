@@ -45,7 +45,7 @@ local gray_termcursornc = gray
 local gray_statusline = black
 local gray_statuslinenc = black
 local gray_tabline = gray
-local gray_tablinefill = black
+local gray_tablinefill = gray
 
 
 
