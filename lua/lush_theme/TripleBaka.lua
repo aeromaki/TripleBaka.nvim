@@ -187,7 +187,7 @@ local theme = lush(function(injected_functions)
     VisualNOS      { bg = yellow, fg = black }, -- Visual mode selection when vim is "Not Owning the Selection".
 
     Search         { bg = yellow, fg = black, gui = 'italic' },
-    CurSearch      { bg = blue, fg = black, gui = 'bold italic' },
+    CurSearch      { bg = red, fg = black, gui = 'bold italic' },
 
 
     -- LspReferenceText            { } , -- Used for highlighting "text" references
